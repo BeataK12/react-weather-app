@@ -21,13 +21,13 @@ export default function Main() {
               <div className="float-left">
                <span id="temp">12</span>
                 <span className="units">
-                  <a href="#" id="celsius" className="active">
+                  
                     ℃
-                  </a>
+                  
                   |
-                  <a href="#" id="fahrenheit">
+               
                     ℉
-                  </a>
+                  
                 </span>
               </div>
             </div>

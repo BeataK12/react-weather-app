@@ -16,7 +16,7 @@ function App() {
      
     </div>
       <small>
-      <a href="https://github.com/BeataK12/react-weather-app" target="_blank">
+      <a href="https://github.com/BeataK12/react-weather-app" target="_blank" rel="gitlink">
         Open-source code</a
       >, by Beata Kolbai</small
     >
