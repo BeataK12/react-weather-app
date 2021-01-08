@@ -14,6 +14,7 @@ export default function SearchForm() {
               autoComplete="off"
               autoFocus="on"
               id="search-city"
+            
             />
           </div>
           <div className="col-3">
