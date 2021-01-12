@@ -1,6 +1,5 @@
 
 import './App.css';
-import SearchForm from "./SearchForm";
 import Main from "./Main";
 import Forecast from "./Forecast";
 
@@ -9,8 +8,7 @@ function App() {
   return (
     <div className="App">
     <div className="container">
-        <SearchForm />
-        <Main />
+        <Main city="London"/>
            <hr width="93%" />
         <Forecast />
      
