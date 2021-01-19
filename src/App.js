@@ -1,7 +1,7 @@
 
 import './App.css';
 import Main from "./Main";
-import Forecast from "./Forecast";
+
 
 
 function App() {
@@ -9,8 +9,7 @@ function App() {
     <div className="App">
     <div className="container">
         <Main city="London"/>
-           <hr width="93%" />
-        <Forecast />
+       
      
     </div>
       <small>

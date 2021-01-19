@@ -61,8 +61,10 @@ ul {
 }
 
 #temp {
-  font-size: 64px;
+  font-size: 62px;
   line-height: 1;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 .active {
@@ -75,10 +77,14 @@ ul {
 }
 
 .weather-icon {
-  height: 64px;
-  width: 80px;
+  display: block;
   float: left;
-  margin: 0 15px;
+  margin-left: 20px;
+  font-size: 46px;
+}
+
+.image-temp {
+  margin-top: 5px;
 }
 
 a {
@@ -88,22 +94,21 @@ a {
   position: relative;
   top: -32px;
 }
-#forecast {
+.forecast {
   margin-top: 10px;
   text-align: center;
   padding: 10px;
 }
 
-#forecast h5 {
+.forecast h5 {
   text-align: center;
 }
 
-#forecast img {
+.iconSmall {
   display: block;
-  margin: 0 auto;
+  margin: 5px 0;
   white-space: nowrap;
-  position: relative;
-  left: -18px;
+  font-size: 25px;
 }
 
 #forecast-temp {
